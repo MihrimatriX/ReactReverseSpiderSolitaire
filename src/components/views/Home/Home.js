@@ -10,12 +10,6 @@ export default function Home() {
         <li>
           <Link to="/game">Start</Link>
         </li>
-        <li>
-          <Link to="/about">Records</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
       </ul>
     </HomePageLayout>
   );
