@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { initiateGame } from "../../../utils/game";
-import CardHolder from "../../Components/CardHolder/CardHolder";
+import CardHolder from "../../modules/CardHolder/CardHolder";
 import styles from "../../../styles/views/CardBoard.sass";
-import Header from "../../Components/Header/Header";
-import CardBoardBottom from "../../Components/CardBoardBottom/CardBoardBottom";
+import Header from "../../modules/Header/Header";
+import CardBoardBottom from "../../modules/CardBoardBottom/CardBoardBottom";
 
 export default function CardBoard() {
   const [game, setGame] = useState({

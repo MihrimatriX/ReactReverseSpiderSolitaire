@@ -1,5 +1,5 @@
 import '../styles/App.css';
-import CardBoard from "./Pages/CardBoard/CardBoard";
+import CardBoard from "../components/views/CardBoard/CardBoard";
 import {
   BrowserRouter as Router,
   Switch,

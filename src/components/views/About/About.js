@@ -1,5 +1,5 @@
 import React from "react";
-import BackHomeButton from "../../components/modules/BackHomeButton/BackHomeButton";
+import BackHomeButton from "../../modules/BackHomeButton/BackHomeButton";
 
 export default function About() {
   return (

@@ -136,8 +136,8 @@ function Card({ data, index, game, setGame, deckIndex }) {
 
   const imgRank = data.rank;
   const cardImage = data.isDown
-    ? require(`../../Assets/cardImg/cardBack.png`).default
-    : require(`../../Assets/cardImg/${imgRank}.png`).default;
+    ? require(`../../../assets/game/cardBack.png`).default
+    : require(`../../../assets/game/${imgRank}.png`).default;
 
   return (
     <div
