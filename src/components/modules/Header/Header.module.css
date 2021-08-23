@@ -1,6 +1,15 @@
 .header {
-  background-color: red;
-  height: 10vh;
-  text-align: center;
+  background: seagreen;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
   font-size: 2rem;
 }
+
+.btn {
+  width: 80px;
+  height: 60px;
+  justify-content: center;
+  border-radius: 5px;
+}
+
