@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "./CardBoardBottom.sass";
+/*import styles from "./CardBoardBottom.sass";*/
+import styles from "./CardBoardBottom.module.css";
 import StockCards from "../StockCards/StockCards";
 
 function CardBoardBottom({ game, setGame, stockDecks }) {

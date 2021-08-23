@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "./Header.sass";
+/*import styles from "./Header.sass";*/
+import styles from "./Header.module.css";
 
 function Header({ completed, moveCount }) {
   return (

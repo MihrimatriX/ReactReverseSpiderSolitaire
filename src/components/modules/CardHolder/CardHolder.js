@@ -1,6 +1,7 @@
 import React from "react";
-import Card from "../Card/Card";
-import styles from "./CardHolder.sass";
+import Card from "../Card/Card.js";
+/*import styles from "./CardHolder.sass";*/
+import styles from "./CardHolder.module.css";
 
 function CardHolder({ game, setGame, deck, deckIndex }) {
   return (

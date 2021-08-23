@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import styles from "./StockCards.sass";
+/*import styles from "./StockCards.sass";*/
+import styles from "./StockCards.module.css";
 
 function StockCards({ index, game, setGame, deck }) {
   const [isShown, setIsShown] = useState(true);

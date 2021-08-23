@@ -1,6 +1,7 @@
 import React from "react";
 import { getRank } from "../../../utils/game";
-import "./Card.sass";
+/*import "./Card.sass";*/
+import "./Card.css";
 
 function Card({ data, index, game, setGame, deckIndex }) {
   var mouseX;
