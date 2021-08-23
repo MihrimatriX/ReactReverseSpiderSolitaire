@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import { showError } from '../utils/toaster';
+import { showError } from '../../utils/toaster';
 
 function Stack({ CARD_BACK ,stackItems, setStacks, stacks, checkDifferenceOfCardValues, setMove }) {
   const drag = (e, cardIdx) => {

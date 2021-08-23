@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { initiateGame } from "../../Utils/game";
+import { initiateGame } from "../../../utils/game";
 import CardHolder from "../../Components/CardHolder/CardHolder";
-import styles from "./CardBoard.module.css";
+import styles from "../../../styles/views/CardBoard.sass";
 import Header from "../../Components/Header/Header";
 import CardBoardBottom from "../../Components/CardBoardBottom/CardBoardBottom";
 

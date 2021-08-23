@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function Card({ ...rest }) {
-  return <img {...rest} />
+  return <img {...rest} />;
 }
 
 export default Card;

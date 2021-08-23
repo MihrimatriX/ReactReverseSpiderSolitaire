@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HomePageLayout from "../../modules/HomePageLayout/HomePageLayout.js";
-import styles from "./Home.sass";
+import styles from "../../../styles/views/Home.sass";
 
 export default function Home() {
   return (
