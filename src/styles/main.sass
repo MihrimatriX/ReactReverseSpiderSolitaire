@@ -1,0 +1,56 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  min-height: 100vh
+  background-color: #2e8b57
+  font-family: 'Roboto', sans-serif
+  font-weight: 500
+
+.game__board-deal div img, .game__board-stacks .stack img
+  width: 100%
+  height: auto
+
+.game__board-deal div, .game__board-stacks .stack
+  border: 2px solid rgba(255, 255, 255, 0.5)
+  border-radius: 3px
+
+.game__info
+  display: flex
+  justify-content: center
+  align-items: center
+  gap: 30px
+  height: 60px
+
+.game__board
+  display: flex
+  user-select: none
+
+.game__board-deal
+  flex: 0 0 250px
+  height: calc(100vh - 60px)
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  align-items: center
+  padding-bottom: 30px
+
+  div
+    width: 85px
+    height: 110px
+
+.game__board-stacks
+  flex-grow: 1
+  display: flex
+  gap: 20px
+  margin-top: 2rem
+
+  .stack
+    width: 85px
+    height: 110px
+    position: relative
+
+    img
+      position: absolute
